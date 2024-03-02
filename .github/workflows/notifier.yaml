@@ -10,8 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: send custom message
-      # uses: appleboy/telegram-action@master
+      uses: appleboy/telegram-action@master
       with:
+        to: ${{ secrets.TELEGRAM_CHAT_ID }}
+        token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         message: |
           🙋‍♂️ ${{ github.actor }} created commit:
           🖥 Commit message: ${{ github.event.commits[0].message }}
@@ -19,7 +21,4 @@ jobs:
           👨‍💻👨‍💻 Branch: ${{ github.ref }}
           👨‍💻👨‍💻👨‍💻 Ref: ${{ github.ref_name }}
           📈 See changes: https://github.com/${{ github.repository }}/commit/${{github.sha}}
-      run: |
-        curl -s -X POST 'https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage' \
-        -d "chat_id=${{ secrets.TELEGRAM_CHAT_ID }}&&message_thread_id=${{ secrets.TELEGRAM_BOT_TOPIC_ID }}text=${message}"
         
