@@ -12,8 +12,7 @@ jobs:
     - name: send custom message
       # uses: appleboy/telegram-action@master
       run: |
-        msg_text='
-          🙋‍♂️ ${{ github.actor }} created commit:
+        msg_text='🙋‍♂️ ${{ github.actor }} created commit:
           🖥 Commit message: ${{ github.event.commits[0].message }}
           👨‍💻 Repository: ${{ github.repository }}
           👨‍💻👨‍💻 Branch: ${{ github.ref }}
