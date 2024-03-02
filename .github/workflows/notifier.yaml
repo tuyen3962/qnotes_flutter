@@ -1,0 +1,23 @@
+name: Notifier
+
+on:
+  push:
+    branches: [ tuyen_develop, manh_develop, develop ]
+
+
+jobs:
+  notifyTelegram:
+    runs-on: ubuntu-latest
+    steps:
+    - name: send custom message
+      uses: appleboy/telegram-action@master
+      with:
+        to: ${{ secrets.TELEGRAM_CHAT_ID }}
+        token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        message: |
+          🙋‍♂️ ${{ github.actor }} created commit:
+          🖥 Commit message: ${{ github.event.commits[0].message }}
+          👨‍💻 Repository: ${{ github.repository }}
+          👨‍💻👨‍💻 Branch: ${{ github.ref }}
+          👨‍💻👨‍💻👨‍💻 Ref: ${{ github.ref_name }}
+          📈 See changes: https://github.com/${{ github.repository }}/commit/${{github.sha}}
