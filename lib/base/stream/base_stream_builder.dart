@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:base_flutter_source/base/stream/base_stream_controller.dart';
+import 'package:qnotes_flutter/base/stream/base_stream_controller.dart';
 
 class BaseStreamBuilder<T> extends StatelessWidget {
   const BaseStreamBuilder({super.key, required this.controller, this.builder});

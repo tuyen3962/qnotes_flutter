@@ -1,7 +1,7 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:json_annotation/json_annotation.dart';
 
-import 'package:base_flutter_source/config/model/employee.dart';
+import 'package:qnotes_flutter/config/model/employee.dart';
 
 part 'employee_working_time.g.dart';
 

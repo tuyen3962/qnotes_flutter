@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:base_flutter_source/extension.dart';
-import 'package:base_flutter_source/config/theme/style/style_theme.dart';
-import 'package:base_flutter_source/main.dart';
+import 'package:qnotes_flutter/extension.dart';
+import 'package:qnotes_flutter/config/theme/style/style_theme.dart';
+import 'package:qnotes_flutter/main.dart';
 
 class SelectedBorderBoxWidget extends StatelessWidget {
   const SelectedBorderBoxWidget({

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:base_flutter_source/extension.dart';
-import 'package:base_flutter_source/widget/list_vertical_item.dart';
+import 'package:qnotes_flutter/extension.dart';
+import 'package:qnotes_flutter/widget/list_vertical_item.dart';
 
 // enum LoadMoreListType { single, two }
 

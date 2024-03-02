@@ -1,5 +1,5 @@
-import 'package:base_flutter_source/config/constant/app_config.dart';
-import 'package:base_flutter_source/config/service/storage_service.dart';
+import 'package:qnotes_flutter/config/constant/app_config.dart';
+import 'package:qnotes_flutter/config/service/storage_service.dart';
 
 class ServerService {
   final StorageService storageService;

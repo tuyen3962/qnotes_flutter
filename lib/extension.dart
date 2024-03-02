@@ -1,6 +1,6 @@
-import 'package:base_flutter_source/config/constant/app_constant_key.dart';
-import 'package:base_flutter_source/main.dart';
-import 'package:base_flutter_source/utils/reponsive/size_config.dart';
+import 'package:qnotes_flutter/config/constant/app_constant_key.dart';
+import 'package:qnotes_flutter/main.dart';
+import 'package:qnotes_flutter/utils/reponsive/size_config.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:uuid/uuid.dart';

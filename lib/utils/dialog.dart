@@ -3,16 +3,16 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:base_flutter_source/utils/assets/images_asset.dart';
+import 'package:qnotes_flutter/utils/assets/images_asset.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:platform_device_id/platform_device_id.dart';
-import 'package:base_flutter_source/config/theme/style/style_theme.dart';
-import 'package:base_flutter_source/extension.dart';
-import 'package:base_flutter_source/main.dart';
-import 'package:base_flutter_source/router/app_route_constant.dart';
-import 'package:base_flutter_source/utils/permission_hanlder.dart';
-import 'package:base_flutter_source/widget/image_asset_custom.dart';
-import 'package:base_flutter_source/widget/primary_button.dart';
+import 'package:qnotes_flutter/config/theme/style/style_theme.dart';
+import 'package:qnotes_flutter/extension.dart';
+import 'package:qnotes_flutter/main.dart';
+import 'package:qnotes_flutter/router/app_route_constant.dart';
+import 'package:qnotes_flutter/utils/permission_hanlder.dart';
+import 'package:qnotes_flutter/widget/image_asset_custom.dart';
+import 'package:qnotes_flutter/widget/primary_button.dart';
 
 import '../screen/preview_image/preview_image_parameter.dart';
 

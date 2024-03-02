@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:base_flutter_source/utils/assets/images_asset.dart';
-import 'package:base_flutter_source/widget/image_asset_custom.dart';
+import 'package:qnotes_flutter/utils/assets/images_asset.dart';
+import 'package:qnotes_flutter/widget/image_asset_custom.dart';
 
 class DefaultImage extends StatelessWidget {
   const DefaultImage({

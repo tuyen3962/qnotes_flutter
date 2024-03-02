@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:base_flutter_source/config/model/account.dart';
-import 'package:base_flutter_source/extension.dart';
-import 'package:base_flutter_source/main.dart';
-import 'package:base_flutter_source/widget/circle_avatar_custom.dart';
+import 'package:qnotes_flutter/config/model/account.dart';
+import 'package:qnotes_flutter/extension.dart';
+import 'package:qnotes_flutter/main.dart';
+import 'package:qnotes_flutter/widget/circle_avatar_custom.dart';
 
 class UserCircleAvatar extends StatelessWidget {
   const UserCircleAvatar({this.account, this.size, super.key});

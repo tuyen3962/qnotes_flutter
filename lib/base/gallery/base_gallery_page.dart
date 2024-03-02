@@ -3,11 +3,11 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_persistent_keyboard_height/flutter_persistent_keyboard_height.dart';
-import 'package:base_flutter_source/base/emoji_picker/emoji_picker_app.dart';
-import 'package:base_flutter_source/base/gallery/asset_gallery_view.dart';
-import 'package:base_flutter_source/base/gallery/base_gallery_controller.dart';
-import 'package:base_flutter_source/base/gallery/view/sticker_view.dart';
-import 'package:base_flutter_source/main.dart';
+import 'package:qnotes_flutter/base/emoji_picker/emoji_picker_app.dart';
+import 'package:qnotes_flutter/base/gallery/asset_gallery_view.dart';
+import 'package:qnotes_flutter/base/gallery/base_gallery_controller.dart';
+import 'package:qnotes_flutter/base/gallery/view/sticker_view.dart';
+import 'package:qnotes_flutter/main.dart';
 
 abstract class BaseGalleryPageState<S extends StatefulWidget,
         C extends BaseGalleryController> extends State<S>

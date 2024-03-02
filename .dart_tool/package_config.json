@@ -165,7 +165,7 @@
     },
     {
       "name": "dart_style",
-      "rootUri": "file:///Users/surt/.pub-cache/hosted/pub.dev/dart_style-2.3.5",
+      "rootUri": "file:///Users/surt/.pub-cache/hosted/pub.dev/dart_style-2.3.6",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -1058,13 +1058,13 @@
       "languageVersion": "2.19"
     },
     {
-      "name": "base_flutter_source",
+      "name": "qnotes_flutter",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     }
   ],
-  "generated": "2024-02-29T03:31:16.719749Z",
+  "generated": "2024-03-02T03:33:54.938300Z",
   "generator": "pub",
   "generatorVersion": "3.2.6"
 }

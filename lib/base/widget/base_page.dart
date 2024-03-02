@@ -1,9 +1,9 @@
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
-import 'package:base_flutter_source/base/widget/base_controller.dart';
-import 'package:base_flutter_source/main.dart';
-import 'package:base_flutter_source/widget/appbar_custom.dart';
+import 'package:qnotes_flutter/base/widget/base_controller.dart';
+import 'package:qnotes_flutter/main.dart';
+import 'package:qnotes_flutter/widget/appbar_custom.dart';
 
 abstract class BasePageState<S extends StatefulWidget, C extends BaseController>
     extends State<S> with WidgetsBindingObserver {

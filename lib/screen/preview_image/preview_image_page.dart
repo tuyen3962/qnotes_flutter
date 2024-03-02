@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:base_flutter_source/base/widget/base_page.dart';
-import 'package:base_flutter_source/extension.dart';
-import 'package:base_flutter_source/main.dart';
-import 'package:base_flutter_source/screen/preview_image/preview_image_controller.dart';
-import 'package:base_flutter_source/screen/preview_image/preview_image_parameter.dart';
+import 'package:qnotes_flutter/base/widget/base_page.dart';
+import 'package:qnotes_flutter/extension.dart';
+import 'package:qnotes_flutter/main.dart';
+import 'package:qnotes_flutter/screen/preview_image/preview_image_controller.dart';
+import 'package:qnotes_flutter/screen/preview_image/preview_image_parameter.dart';
 
 class PreviewImagePage extends StatefulWidget {
   const PreviewImagePage({required this.parameter, super.key});

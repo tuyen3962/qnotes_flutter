@@ -2,9 +2,9 @@ import 'dart:io';
 
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:base_flutter_source/extension.dart';
-import 'package:base_flutter_source/utils/assets/images_asset.dart';
-import 'package:base_flutter_source/widget/image_asset_custom.dart';
+import 'package:qnotes_flutter/extension.dart';
+import 'package:qnotes_flutter/utils/assets/images_asset.dart';
+import 'package:qnotes_flutter/widget/image_asset_custom.dart';
 
 class CircleAvatarCustom extends StatelessWidget {
   const CircleAvatarCustom({

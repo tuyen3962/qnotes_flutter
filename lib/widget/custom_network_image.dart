@@ -1,6 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:base_flutter_source/widget/default_image.dart';
+import 'package:qnotes_flutter/widget/default_image.dart';
 
 class CustomNetworkImage extends StatelessWidget {
   const CustomNetworkImage({

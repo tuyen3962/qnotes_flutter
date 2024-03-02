@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:base_flutter_source/base/stream/base_stream_builder.dart';
-import 'package:base_flutter_source/base/stream/base_stream_controller.dart';
-import 'package:base_flutter_source/config/constant/app_config.dart';
-import 'package:base_flutter_source/config/model/sticker.dart';
-import 'package:base_flutter_source/config/repository/upload/iupload_repository.dart';
-import 'package:base_flutter_source/config/service/app_service.dart';
-import 'package:base_flutter_source/config/theme/style/style_theme.dart';
-import 'package:base_flutter_source/extension.dart';
-import 'package:base_flutter_source/main.dart';
-import 'package:base_flutter_source/widget/custom_network_image.dart';
-import 'package:base_flutter_source/widget/list_vertical_item.dart';
+import 'package:qnotes_flutter/base/stream/base_stream_builder.dart';
+import 'package:qnotes_flutter/base/stream/base_stream_controller.dart';
+import 'package:qnotes_flutter/config/constant/app_config.dart';
+import 'package:qnotes_flutter/config/model/sticker.dart';
+import 'package:qnotes_flutter/config/repository/upload/iupload_repository.dart';
+import 'package:qnotes_flutter/config/service/app_service.dart';
+import 'package:qnotes_flutter/config/theme/style/style_theme.dart';
+import 'package:qnotes_flutter/extension.dart';
+import 'package:qnotes_flutter/main.dart';
+import 'package:qnotes_flutter/widget/custom_network_image.dart';
+import 'package:qnotes_flutter/widget/list_vertical_item.dart';
 
 class StickerView extends StatefulWidget {
   const StickerView({super.key, this.onAddNewSticker});

@@ -1,6 +1,6 @@
 import 'dart:io';
-import 'package:base_flutter_source/config/model/account.dart';
-import 'package:base_flutter_source/config/repository/account/iaccount_repository.dart';
+import 'package:qnotes_flutter/config/model/account.dart';
+import 'package:qnotes_flutter/config/repository/account/iaccount_repository.dart';
 
 class AccountRepository extends IAccountRepository {
   @override

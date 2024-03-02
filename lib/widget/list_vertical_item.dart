@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:base_flutter_source/extension.dart' as exten;
-import 'package:base_flutter_source/extension.dart';
+import 'package:qnotes_flutter/extension.dart' as exten;
+import 'package:qnotes_flutter/extension.dart';
 
 class ListVerticalItem<T> extends StatelessWidget {
   const ListVerticalItem({

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:base_flutter_source/extension.dart' as style;
+import 'package:qnotes_flutter/extension.dart' as style;
 
 class ImageAssetCustom extends StatelessWidget {
   final String imagePath;

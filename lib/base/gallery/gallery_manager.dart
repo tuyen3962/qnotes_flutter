@@ -3,7 +3,7 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:photo_manager/photo_manager.dart';
-import 'package:base_flutter_source/base/stream/base_list_stream_controller.dart';
+import 'package:qnotes_flutter/base/stream/base_list_stream_controller.dart';
 
 class GalleryManager {
   int page = 0;

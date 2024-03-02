@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_persistent_keyboard_height/flutter_persistent_keyboard_height.dart';
-import 'package:base_flutter_source/base/gallery/view/gallery_album_view.dart';
-import 'package:base_flutter_source/base/gallery/gallery_manager.dart';
-import 'package:base_flutter_source/config/theme/style/style_theme.dart';
-import 'package:base_flutter_source/extension.dart';
-import 'package:base_flutter_source/main.dart';
-import 'package:base_flutter_source/utils/loading.dart';
-import 'package:base_flutter_source/widget/default_image.dart';
-import 'package:base_flutter_source/widget/list_vertical_item.dart';
+import 'package:qnotes_flutter/base/gallery/view/gallery_album_view.dart';
+import 'package:qnotes_flutter/base/gallery/gallery_manager.dart';
+import 'package:qnotes_flutter/config/theme/style/style_theme.dart';
+import 'package:qnotes_flutter/extension.dart';
+import 'package:qnotes_flutter/main.dart';
+import 'package:qnotes_flutter/utils/loading.dart';
+import 'package:qnotes_flutter/widget/default_image.dart';
+import 'package:qnotes_flutter/widget/list_vertical_item.dart';
 
 import 'view/gallery_asset_view.dart';
 

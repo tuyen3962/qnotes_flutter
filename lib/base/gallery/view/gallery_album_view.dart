@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:base_flutter_source/base/gallery/gallery_manager.dart';
-import 'package:base_flutter_source/base/gallery/view/gallery_asset_view.dart';
-import 'package:base_flutter_source/config/theme/style/style_theme.dart';
-import 'package:base_flutter_source/extension.dart';
+import 'package:qnotes_flutter/base/gallery/gallery_manager.dart';
+import 'package:qnotes_flutter/base/gallery/view/gallery_asset_view.dart';
+import 'package:qnotes_flutter/config/theme/style/style_theme.dart';
+import 'package:qnotes_flutter/extension.dart';
 
 class GalleryAlbumView extends StatefulWidget {
   const GalleryAlbumView({

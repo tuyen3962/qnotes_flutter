@@ -1,7 +1,7 @@
 import 'dart:io';
 
-import 'package:base_flutter_source/config/model/account.dart';
-import 'package:base_flutter_source/config/repository/ibase_repository.dart';
+import 'package:qnotes_flutter/config/model/account.dart';
+import 'package:qnotes_flutter/config/repository/ibase_repository.dart';
 
 abstract class IAccountRepository extends IBaseRepository {
   Future<Account?> createAccountModel(

@@ -1,4 +1,4 @@
-import 'package:base_flutter_source/config/service/app_service.dart';
+import 'package:qnotes_flutter/config/service/app_service.dart';
 
 class AppConfig {
   AppConfig({

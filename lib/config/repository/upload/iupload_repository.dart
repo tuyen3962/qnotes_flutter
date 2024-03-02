@@ -1,7 +1,7 @@
 import 'dart:io';
 
-import 'package:base_flutter_source/config/model/sticker.dart';
-import 'package:base_flutter_source/config/repository/ibase_repository.dart';
+import 'package:qnotes_flutter/config/model/sticker.dart';
+import 'package:qnotes_flutter/config/repository/ibase_repository.dart';
 
 abstract class IUploadRepository extends IBaseRepository {
   Future<String> uploadImage(String path, File file, {String? fileName});

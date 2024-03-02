@@ -1,6 +1,6 @@
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:base_flutter_source/config/constant/storage_key.dart';
+import 'package:qnotes_flutter/config/constant/storage_key.dart';
 
 class StorageService {
   late final FlutterSecureStorage _secureStorage;

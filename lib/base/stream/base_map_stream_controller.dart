@@ -1,4 +1,4 @@
-import 'package:base_flutter_source/base/stream/base_stream_controller.dart';
+import 'package:qnotes_flutter/base/stream/base_stream_controller.dart';
 
 class BaseMapStreamController<A, B> extends BaseStreamController<Map<A, B>> {
   BaseMapStreamController(super.initialValue);

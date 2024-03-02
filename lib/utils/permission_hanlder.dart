@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:permission_handler/permission_handler.dart';
-import 'package:base_flutter_source/utils/dialog.dart';
+import 'package:qnotes_flutter/utils/dialog.dart';
 
 class PermissionHandler {
   static late final _permissionTitleString = {

@@ -1,4 +1,4 @@
-package com.example.base_flutter_source
+package com.surt.qnotes
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:base_flutter_source/main.dart';
-import 'package:base_flutter_source/widget/text_form_field_widget.dart';
+import 'package:qnotes_flutter/main.dart';
+import 'package:qnotes_flutter/widget/text_form_field_widget.dart';
 
 class MessageInput extends StatefulWidget {
   const MessageInput(

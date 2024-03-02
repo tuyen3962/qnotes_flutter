@@ -1,3 +1,3 @@
-# base_flutter_source
+# qnotes_flutter
 
 A new Flutter project.

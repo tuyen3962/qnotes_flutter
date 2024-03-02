@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:base_flutter_source/config/theme/style/style_theme.dart';
-import 'package:base_flutter_source/extension.dart';
-import 'package:base_flutter_source/main.dart';
-import 'package:base_flutter_source/widget/image_asset_custom.dart';
+import 'package:qnotes_flutter/config/theme/style/style_theme.dart';
+import 'package:qnotes_flutter/extension.dart';
+import 'package:qnotes_flutter/main.dart';
+import 'package:qnotes_flutter/widget/image_asset_custom.dart';
 
 class ItemTextClickWidget extends StatelessWidget {
   const ItemTextClickWidget({

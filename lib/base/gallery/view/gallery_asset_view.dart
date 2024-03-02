@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:photo_manager/photo_manager.dart';
-import 'package:base_flutter_source/base/gallery/gallery_manager.dart';
-import 'package:base_flutter_source/config/theme/style/style_theme.dart';
-import 'package:base_flutter_source/extension.dart';
-import 'package:base_flutter_source/main.dart';
+import 'package:qnotes_flutter/base/gallery/gallery_manager.dart';
+import 'package:qnotes_flutter/config/theme/style/style_theme.dart';
+import 'package:qnotes_flutter/extension.dart';
+import 'package:qnotes_flutter/main.dart';
 
 class GalleryAssetView extends StatelessWidget {
   const GalleryAssetView({

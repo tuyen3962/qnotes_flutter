@@ -2,9 +2,9 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:rxdart/rxdart.dart';
-import 'package:base_flutter_source/base/gallery/gallery_manager.dart';
-import 'package:base_flutter_source/base/stream/base_stream_controller.dart';
-import 'package:base_flutter_source/base/widget/base_controller.dart';
+import 'package:qnotes_flutter/base/gallery/gallery_manager.dart';
+import 'package:qnotes_flutter/base/stream/base_stream_controller.dart';
+import 'package:qnotes_flutter/base/widget/base_controller.dart';
 
 abstract class BaseGalleryController<S extends State<StatefulWidget>>
     extends BaseController<S> {

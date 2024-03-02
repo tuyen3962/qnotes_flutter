@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:base_flutter_source/base/widget/base_page.dart';
-import 'package:base_flutter_source/extension.dart';
-import 'package:base_flutter_source/main.dart';
-import 'package:base_flutter_source/screen/splash/splash_controller.dart';
-import 'package:base_flutter_source/config/theme/base_app_theme.dart';
-import 'package:base_flutter_source/utils/assets/images_asset.dart';
-import 'package:base_flutter_source/widget/image_asset_custom.dart';
+import 'package:qnotes_flutter/base/widget/base_page.dart';
+import 'package:qnotes_flutter/extension.dart';
+import 'package:qnotes_flutter/main.dart';
+import 'package:qnotes_flutter/screen/splash/splash_controller.dart';
+import 'package:qnotes_flutter/config/theme/base_app_theme.dart';
+import 'package:qnotes_flutter/utils/assets/images_asset.dart';
+import 'package:qnotes_flutter/widget/image_asset_custom.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});

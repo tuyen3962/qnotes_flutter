@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:base_flutter_source/base/widget/base_page.dart';
-import 'package:base_flutter_source/screen/temp/_controller.dart';
+import 'package:qnotes_flutter/base/widget/base_page.dart';
+import 'package:qnotes_flutter/screen/temp/_controller.dart';
 
 class Screen extends StatefulWidget {
   const Screen({super.key});

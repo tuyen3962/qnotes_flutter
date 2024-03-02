@@ -1,12 +1,12 @@
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:get_it/get_it.dart';
-import 'package:base_flutter_source/config/constant/app_config.dart';
-import 'package:base_flutter_source/config/repository/account/account_repository.dart';
-import 'package:base_flutter_source/config/repository/account/iaccount_repository.dart';
-import 'package:base_flutter_source/config/repository/upload/iupload_repository.dart';
-import 'package:base_flutter_source/config/service/account_service.dart';
-import 'package:base_flutter_source/config/service/server_service.dart';
-import 'package:base_flutter_source/config/service/storage_service.dart';
+import 'package:qnotes_flutter/config/constant/app_config.dart';
+import 'package:qnotes_flutter/config/repository/account/account_repository.dart';
+import 'package:qnotes_flutter/config/repository/account/iaccount_repository.dart';
+import 'package:qnotes_flutter/config/repository/upload/iupload_repository.dart';
+import 'package:qnotes_flutter/config/service/account_service.dart';
+import 'package:qnotes_flutter/config/service/server_service.dart';
+import 'package:qnotes_flutter/config/service/storage_service.dart';
 
 final locator = GetIt.instance;
 

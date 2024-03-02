@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:base_flutter_source/extension.dart';
-import 'package:base_flutter_source/main.dart';
-import 'package:base_flutter_source/utils/flash/flash.dart';
+import 'package:qnotes_flutter/extension.dart';
+import 'package:qnotes_flutter/main.dart';
+import 'package:qnotes_flutter/utils/flash/flash.dart';
 
 // void showToast(
 //   String title,

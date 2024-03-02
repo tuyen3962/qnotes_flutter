@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:base_flutter_source/config/theme/base_theme_data.dart';
+import 'package:qnotes_flutter/config/theme/base_theme_data.dart';
 
 enum ThemeType { light, dark }
 

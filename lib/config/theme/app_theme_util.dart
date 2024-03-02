@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:base_flutter_source/config/theme/base_app_theme.dart';
-import 'package:base_flutter_source/config/theme/base_theme_data.dart';
-import 'package:base_flutter_source/config/theme/ecommerce/ecommerce_theme.dart';
+import 'package:qnotes_flutter/config/theme/base_app_theme.dart';
+import 'package:qnotes_flutter/config/theme/base_theme_data.dart';
+import 'package:qnotes_flutter/config/theme/ecommerce/ecommerce_theme.dart';
 
 class AppThemeUtil {
   final theme = EcommerceAppThemeDefault();
